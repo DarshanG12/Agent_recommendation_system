@@ -6,9 +6,9 @@ This project is a Flask-based application that allows users to query a database 
 
 ## The project is organized into the following files:
 
-vectorstore.py: Contains code for generating and loading vector embeddings from agent data stored in an Excel file.
-model.py: Defines the conversational retrieval chain using the stored embeddings and a custom prompt template.
-app.py: The main Flask application that provides an API endpoint for querying the agent database.
+- vectorstore.py: Contains code for generating and loading vector embeddings from agent data stored in an Excel file.
+- model.py: Defines the conversational retrieval chain using the stored embeddings and a custom prompt template.
+- app.py: The main Flask application that provides an API endpoint for querying the agent database.
 
 ```
 pip install -r requirements.txt
